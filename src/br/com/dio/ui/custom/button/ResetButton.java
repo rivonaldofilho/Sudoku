@@ -1,4 +1,11 @@
 package br.com.dio.ui.custom.button;
 
-public class ResetButton {
+import javax.swing.*;
+import java.awt.event.ActionListener;
+
+public class ResetButton extends JButton {
+    public ResetButton(final ActionListener actionListener) {
+        this.setText("Reset");
+        this.addActionListener(actionListener);
+    }
 }

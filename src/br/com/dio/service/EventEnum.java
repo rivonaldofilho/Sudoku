@@ -1,4 +1,5 @@
 package br.com.dio.service;
 
-public enum EventEnum {
+public enum EventEnum  {
+    CLEAR_SPACE
 }

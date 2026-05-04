@@ -1,4 +1,12 @@
 package br.com.dio.ui.custom.panel;
 
-public class MainPanel {
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionListener;
+
+public class MainPanel extends JPanel {
+    public MainPanel(final Dimension dimension) {
+        this.setSize(dimension);
+        this.setPreferredSize(dimension);
+    }
 }
